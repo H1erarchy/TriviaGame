@@ -1,0 +1,58 @@
+body {
+    background-image:url('https://images8.alphacoders.com/108/1081458.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .wrapper {
+    width: 430px;
+    margin: center;
+    height: 100%;
+    padding-top: 0px;
+    opacity: 70%;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+  }
+
+  
+  .question {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .answers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .answer-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .answer-btn:hover {
+    background-color: red;
+  }
+  
+  #quiz {
+    background-color: black;
+    padding-bottom: 40px;
+    width: 40%;
+    border-radius: 30%;
+    color: grey;
+    text-align: center;
+    opacity: 80%;
+    
+  }
